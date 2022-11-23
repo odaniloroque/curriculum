@@ -1,0 +1,160 @@
+
+
+.main {
+ display: flex;
+ width: 100%;
+}
+
+nav li {
+	display: inline;
+}
+nav a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover {
+	color: #0a2255;
+	text-decoration: underline;
+}
+
+
+
+/* main */
+.dados-pessoais {
+ background: url("../img/bg.jpg");
+ color: #FEFEFE;
+  width: 20%;
+  
+}
+
+.dados-pessoais h2 {
+  background: url("../img/bg2.jpg");
+  font-size: 20px;
+  height: 50px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+   
+ }
+
+ .dados-pessoais p {
+  margin: 10px 0 0 10px ;
+ }
+
+.nome_completo {
+  text-align: center;
+}
+
+.imagem_ciruclo {
+  /* margin-top: 35px; */
+  margin: 35px 0 0 25px ;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #FEFEFE;
+  display: flex;
+  align-items: center;
+ 
+  }
+
+.imagem_ciruclo img {
+  width: 180px;
+  border-radius: 50%;
+  padding: 0 0 0 10px;
+
+ }
+
+ .nome_completo h1 {
+  margin: 20px 0 0 0;
+  font-size: 25px;
+  font-weight: bold;
+ }
+
+.principal {
+  width: 80%;
+  background: rgb(211, 204, 204) ;
+}
+
+
+
+
+
+
+
+
+
+.educacao {
+  display: flex;
+  align-items: center;
+}
+
+.educacao-cab {
+  background: red ;
+  height:100%;
+  rotate: 270deg;
+  
+}
+
+.educacao-desc {
+  background-color: orange ;
+  width: 70%;
+}
+
+.educacao-img {
+  background-color: aqua ;
+  width: 20%;
+}
+
+
+/* .educacao {
+  height: 250px;
+  align-items: center;
+}
+.educacao-cab {
+  width: 250px;
+  height: 10px;
+  background-color: rgb(255, 165, 0);
+  border-radius: 0 0 30px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  rotate: 270deg
+} */
+
+
+
+/* table {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+
+th {
+  border: 1px solid black;
+}
+
+table.a {
+  table-layout: auto;
+  width: 180px;  
+}
+ */
+
+
+
+/* p {
+  text-transform: rotate(270deg);  
+} */
+
+
+
+
+.footer {
+  background: url("../img/bg.jpg");
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
