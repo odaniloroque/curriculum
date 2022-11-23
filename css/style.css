@@ -1,4 +1,14 @@
+/*
+margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+*/
 
+body {
+	font-family: 'Montserrat', sans-serif;
+}
 
 .main {
  display: flex;
@@ -21,35 +31,17 @@ nav a:hover {
 
 
 
-/* main */
+/* Monta Tabela de reserva 20% da pagina */
 .dados-pessoais {
  background: url("../img/bg.jpg");
  color: #FEFEFE;
-  width: 20%;
-  
+ width: 25%;
 }
 
-.dados-pessoais h2 {
-  background: url("../img/bg2.jpg");
-  font-size: 20px;
-  height: 50px;
-  text-transform: uppercase;
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-   
- }
+/* Cria o componente foto perfil */
 
- .dados-pessoais p {
-  margin: 10px 0 0 10px ;
- }
-
-.nome_completo {
-  text-align: center;
-}
 
 .imagem_ciruclo {
-  /* margin-top: 35px; */
   margin: 35px 0 0 25px ;
   width: 200px;
   height: 200px;
@@ -67,94 +59,98 @@ nav a:hover {
 
  }
 
+ /* Cria o componente apresentação nome completo e profissão */
+
+ .nome_completo {
+  margin: 0 10px 0 10px ;
+  align-items: center;
+}
  .nome_completo h1 {
   margin: 20px 0 0 0;
   font-size: 25px;
   font-weight: bold;
  }
 
+.sub-dados-pessoais {
+  background: url("../img/bg2.jpg");
+  font-size: 20px;
+  height: 50px;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+   
+ }
+
+ .contatos p, .idiomas p, .hobbies p{
+  margin: 10px 0 10px 30px ;
+ }
+ 
+/* Iniciar aba prinicipal */
+
 .principal {
-  width: 80%;
-  background: rgb(211, 204, 204) ;
+  width: 75%;
 }
-
-
-
-
-
-
-
 
 
 .educacao {
   display: flex;
   align-items: center;
+  height: 20%;
 }
 
+
 .educacao-cab {
-  background: red ;
-  height:100%;
+  width: 3%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.educacao-cab p {
   rotate: 270deg;
-  
+  background: orange ;
+  color: #FEFEFE;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;  
 }
 
 .educacao-desc {
-  background-color: orange ;
-  width: 70%;
+  background-color: red ;
+  width: 77%;
+  height: 100%;
 }
 
 .educacao-img {
   background-color: aqua ;
   width: 20%;
+  height: 100%;
 }
 
 
-/* .educacao {
-  height: 250px;
-  align-items: center;
+
+
+
+
+
+
+
+.experiencia {
+   background: tomato;
+   height: 20%;
+  }
+.habilidades {
+  background: rebeccapurple;
+  height: 20%;
 }
-.educacao-cab {
-  width: 250px;
-  height: 10px;
-  background-color: rgb(255, 165, 0);
-  border-radius: 0 0 30px 30px;
-  text-transform: uppercase;
-  font-weight: bold;
-  rotate: 270deg
-} */
-
-
-
-/* table {
-  border-collapse: collapse;
-  border: 1px solid black;
-} 
-
-th {
-  border: 1px solid black;
+.certificacoes {
+  background: darkblue;
+  height: 20%;
 }
-
-table.a {
-  table-layout: auto;
-  width: 180px;  
-}
- */
-
-
-
-/* p {
-  text-transform: rotate(270deg);  
-} */
-
-
-
-
-.footer {
-  background: url("../img/bg.jpg");
-}
-
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+.conquistas {
+  background: darkmagenta;
+  height: 20%;
 }
