@@ -1,0 +1,116 @@
+:root {
+  --main-size: 1024px;
+  --pag-size-dados-pessoais: 35%;
+  --pag-size-principal: 65%;
+  --pag-size-principal-div: 250px;
+
+}
+
+/* * {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.main {
+ display: flex;
+ width: 100%;
+}
+
+nav li {
+	display: inline;
+}
+nav a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+  font-size: 20px;
+}
+nav a:hover {
+	color: #0a2255;
+	text-decoration: underline;
+}
+
+.dados-pessoais {
+ background: url("../img/bg.jpg");
+ color: #FEFEFE;
+ width: 25%;
+}
+
+
+.imagem_ciruclo {
+  margin: 35px 0 0 25px ;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #FEFEFE;
+  display: flex;
+  align-items: center;
+   }
+
+.imagem_ciruclo img {
+  width: 180px;
+  border-radius: 50%;
+  padding: 0 0 0 10px;
+ }
+
+ .nome_completo {
+  margin: 0 10px 0 10px ;
+  align-items: center;
+}
+ .nome_completo h1 {
+  margin: 20px 0 0 0;
+  font-size: 25px;
+  font-weight: bold;
+ }
+
+.sub-dados-pessoais {
+  background: url("../img/bg2.jpg");
+  font-size: 20px;
+  height: 50px;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+ }
+
+ .contatos p, .idiomas p, .hobbies p{
+  margin: 10px 0 10px 30px ;
+ }
+
+
+.principal {
+  width: 75%;
+}  */
+
+/* .educacao {
+  display: flex;
+  height: var(--pag-size-principal-div);
+} */
+
+.educacao-cab {
+  width: 5%;
+  background: orange;
+  display: flex;
+  align-items: center;
+  clear: none;
+}
+
+.educacao-cab p {
+  rotate: 270deg;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;  
+}
+
+/* .educacao-desc {
+  margin: 25px 0 0 25px;
+  width: 90%;
+  height: 100%;
+} */
+
+/* .educacao-img {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+} */

@@ -1,20 +1,14 @@
 :root {
---main-size: 100%;
---pag-size-dados-pessoais: 35%;
---pag-size-principal: 65%;
---pag-size-principal-div: 250px;
+  --main-size: 1024px;
+  --pag-size-dados-pessoais: 35%;
+  --pag-size-principal: 65%;
+  --pag-size-principal-div: 250px;
 
 }
 
 * {
 font-family: 'Montserrat', sans-serif;
-/* border:2px solid #000; */
-/* margin: 10px 0  0 25px ; */
 
-}
-
-body {
-  /* background: #0a2255; */
 }
 
 .main {
@@ -23,7 +17,7 @@ width: var(--main-size);
 }
 
 nav li {
-/* display: inline; */
+display: inline;
 }
 nav a {
 color: #000000;
@@ -35,9 +29,7 @@ nav a:hover {
 color: #0a2255;
 text-decoration: underline;
 }
-.header {
-  background: url("../img/bg.jpg");
-}
+
 /* Monta Tabela de reserva 20% da pagina */
 .dados-pessoais {
 background: url("../img/bg.jpg");
@@ -88,60 +80,39 @@ align-items: center;
 margin: 10px 0 10px 30px ;
 }
 
+/* Iniciar aba prinicipal */
+
 .principal {
-width:var(--pag-size-principal);
+  width:var(--pag-size-principal);
 }
 
-.conteudo { 
+.principal-div { 
 height: var(--pag-size-principal-div);
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
-.conteudo-cb {
-height:  80%;
-width: 40px;
-color: #FEFEFE;
-text-transform: uppercase;  
-font-weight: bold;
-font-size: 15px;
-writing-mode: vertical-rl;
-border-radius: 0px 25px 25px 0px;
+.experiencia {  
+height:  var(--pag-size-principal-div);
 display: flex;
 justify-content: center;
-align-items: center;
-}
+align-items: center;}
 
-.conteudo-desc {
-width: 100%;
-display:flex;
-justify-content: center;
-}
-
-.conteudo-desc-educ {
- width: 30%;
-}
-
-.conteudo-periodo {
-  font-weight: bold;
-}
-
-
-.conteudo-img {
-height:  100%;
+.habilidades { 
+height:  var(--pag-size-principal-div);
 display: flex;
-align-items: center;
-margin: 0 10px 0 10px;
-}
+justify-content: center;
+align-items: center; }
 
-.conteudo-exp {
-  width: 100%;
- 
-}
+.certificacoes {  
+height:  var(--pag-size-principal-div);
+display: flex;
+justify-content: center;
+align-items: center; }
 
-.hr3 {
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, transparent, #CCC, transparent);  
-}
+.conquistas {  
+height:  var(--pag-size-principal-div);
+display: flex;
+justify-content: center;
+align-items: center; }
