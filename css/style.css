@@ -8,13 +8,12 @@
 
 * {
 font-family: 'Montserrat', sans-serif;
-/* border:2px solid #000; */
-/* margin: 10px 0  0 25px ; */
+
 
 }
 
 body {
-  /* background: #0a2255; */
+
 }
 
 .main {
@@ -22,8 +21,16 @@ display: flex;
 width: var(--main-size);
 }
 
+.menu{
+
+}
+
 nav li {
-/* display: inline; */
+display: inline;
+justify-content: center;
+  align-items: center;
+
+
 }
 nav a {
 color: #000000;
@@ -35,9 +42,7 @@ nav a:hover {
 color: #0a2255;
 text-decoration: underline;
 }
-.header {
-  background: url("../img/bg.jpg");
-}
+
 /* Monta Tabela de reserva 20% da pagina */
 .dados-pessoais {
 background: url("../img/bg.jpg");
@@ -115,6 +120,8 @@ align-items: center;
 
 .conteudo-desc {
 width: 100%;
+margin-top: 60px;
+height: 100%;
 display:flex;
 justify-content: center;
 }
@@ -137,8 +144,45 @@ margin: 0 10px 0 10px;
 
 .conteudo-exp {
   width: 100%;
- 
+  margin: 0px 0px 0px 15px ;
 }
+
+.conteudo-exp p{
+  padding: 2px;
+}
+
+.conteudo-hab {
+  width: 100%;
+  margin: 0px 0px 0px 15px ;
+}
+
+.conteudo-hab td, tr{
+ width: 250px;
+}
+
+
+.conteudo-cert {
+  width: 100%;
+  margin: 15px 0px 0px 15px ;
+}
+
+.cert {
+	line-height: 1.5;
+  padding: 2px;
+}
+
+.cert::before {
+  content: "🟊";
+}
+
+
+.conteudo-conquistas {
+  width: 100%;
+  margin: 0px 0px 0px 15px ;
+}
+
+
+
 
 .hr3 {
   border: 0;
